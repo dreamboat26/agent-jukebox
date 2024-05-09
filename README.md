@@ -1,45 +1,59 @@
-# YT LangChain Custom Tools & Agents
+# LangChain Custom Tools & Agents
 
-This repository hosts custom tools and agents developed using the YT LangChain platform, aimed at enhancing language-related tasks and processes.
+This script demonstrates the usage of LangChain custom tools and agents for natural language processing tasks.
 
 ## Overview
 
-LangChain provides a framework for building and deploying natural language processing (NLP) models, tools, and agents tailored to specific use cases. By leveraging LangChain's capabilities, developers can create custom solutions to automate tasks, improve efficiency, and enhance user experiences across various domains.
+LangChain provides a framework for building and deploying custom tools and agents tailored to specific language-related tasks. These tools and agents can perform a variety of functions, such as web searches, answering questions, and providing information on specific topics.
 
-## Key Features
+## Tools
 
-- **Custom Tools**: Develop specialized tools for text processing, analysis, summarization, and other NLP tasks.
-- **Agents**: Build intelligent agents capable of understanding and responding to natural language queries and commands.
-- **Integration**: Integrate LangChain tools and agents with existing applications and workflows.
-- **Scalability**: Scale tools and agents to handle large volumes of text data.
-- **Flexibility**: Customize tools and agents to adapt to different languages, domains, and use cases.
+### DuckDuckGoSearchTool
 
-## Repository Structure
-1. **Custom Tools**: Contains source code, scripts, and documentation for custom tools.
-2. **Agents**: Houses code and resources for intelligent agents.
-3. **Examples**: Provides usage examples, tutorials, and sample applications.
-4. **Documentation**: Hosts comprehensive documentation covering installation instructions and usage guidelines.
+- **Description**: Performs web searches using the DuckDuckGo search engine.
+- **Functionality**: Useful for answering questions about current events. It is recommended to ask targeted questions.
+- **Usage Example**: `search("Your search query")`
+
+### RandomTool
+
+- **Description**: Generates a random number.
+- **Functionality**: Provides a random number upon request.
+- **Usage Example**: `random_tool()`
+
+### MeaningOfLifeTool
+
+- **Description**: Provides information about the meaning of life.
+- **Functionality**: Returns the meaning of life upon request. Input should be "MOL".
+- **Usage Example**: `meaning_of_life("MOL")`
+
+## Agents
+
+### Conversational Agent
+
+- **Description**: A conversational agent that utilizes the defined tools to respond to user queries.
+- **Memory**: Utilizes a ConversationBufferWindowMemory to store past chat history.
+- **Initialization**: The agent is initialized with specified tools, language model, and memory settings.
+- **Usage Example**:
+    ```python
+    conversational_agent("What time is it in London?")
+    conversational_agent("Can you give me a random number?")
+    conversational_agent("What is the meaning of life?")
+    ```
 
 ## Getting Started
 
-1. **Clone Repository**: Clone this repository to your local environment.
-2. **Explore Tools**: Navigate to the Custom Tools directory to explore or develop tools.
-3. **Build Agents**: Check out the Agents section to build intelligent agents.
-4. **Integrate and Deploy**: Integrate tools and agents into your applications and deploy them.
+To use LangChain custom tools and agents:
 
-## Contributing
-
-Contributions are welcome! Please follow the contribution guidelines outlined in the repository.
-
-## License
-
-This repository is licensed under the MIT License.
+1. **Import Tools**: Import the desired tools from `langchain.tools`.
+2. **Initialize Agents**: Initialize agents with the required tools, language models, and memory settings.
+3. **Execute Queries**: Use the agents to process user queries and obtain responses.
 
 ## Acknowledgments
 
-We acknowledge the contributions of the YT LangChain development team and the open-source community.
+This script utilizes LangChain tools and agents to demonstrate the capabilities of the framework for natural language processing tasks.
 
-For more information, visit the LangChain website and explore the documentation.
+For more information, refer to the LangChain documentation and resources.
 
-Let's harness the power of LangChain to build innovative language tools and agents!
+Let's enhance language processing with LangChain custom tools and agents!
+
 
