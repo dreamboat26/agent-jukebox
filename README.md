@@ -1,4 +1,4 @@
-# Llama3 CrewAI + Groq Integration: README
+# Llama3 CrewAI + Groq Integration
 
 ## Overview
 
