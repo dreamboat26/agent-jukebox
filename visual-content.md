@@ -1,4 +1,3 @@
-```markdown
 # Instagram Visual Content Descriptions for "Castles in Germany" Page
 
 ## **Tuesday: Dawn and Dusk - The Enigmatic Silhouettes of German Castles**
@@ -51,4 +50,3 @@
 - **Visual Description:** Lichtenstein Castle is perched precariously on the edge of a cliff, as if defying gravity. The image captures the castle's dramatic setting and fairy-tale appearance, with a panoramic view of the lush valley below. The late afternoon sun casts long shadows, enhancing the sense of depth and drama. This visual invites followers to dream and share castles that spark their own fantasies, embodying the essence of adventure and discovery.
 - **Colors:** Vibrant greens, deep shadows, soft sunlight
 - **Mood:** Dramatic, Inspirational
-```
