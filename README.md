@@ -1,12 +1,8 @@
 # AI Crew for Instagram Post
 ## Introduction
-This project is an example using the CrewAI framework to automate the process of coming up with an instagram post. CrewAI orchestrates autonomous AI agents, enabling them to collaborate and execute complex tasks efficiently.
+This mini project is an example using the CrewAI framework to automate the process of coming up with an instagram post. CrewAI orchestrates autonomous AI agents, enabling them to collaborate and execute complex tasks efficiently.
 
 #### Instagram Post
-[![Instagram Post](https://img.youtube.com/vi/lcD0nT8IVTg/0.jpg)](https://www.youtube.com/watch?v=lcD0nT8IVTg "Instagram Post")
-
-By [@joaomdmoura](https://x.com/joaomdmoura)
-
 - [CrewAI Framework](#crewai-framework)
 - [Running the script](#running-the-script)
 - [Details & Explanation](#details--explanation)
@@ -38,7 +34,7 @@ This example run enterily local models, the CrewAI framework supports integratio
 
 ### Setting Up Ollama
 - **Install Ollama**: Ensure that Ollama is properly installed in your environment. Follow the installation guide provided by Ollama for detailed instructions.
-- **Configure Ollama**: Set up Ollama to work with your local model. You will probably need to [tweak the model using a Modelfile](https://github.com/jmorganca/ollama/blob/main/docs/modelfile.md), I'd recommend playing with `top_p` and `temperature`.
+- **Configure Ollama**: Set up Ollama to work with your local model.
 
 ## License
 This project is released under the MIT License.
