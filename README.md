@@ -35,8 +35,7 @@ tasks.py: Contains the task definitions that are used by the agents to perform s
 file_io.py: Manages file input/output operations, crucial for handling the async flow of data.
 
 
-Crew Formation
-The crew is composed of multiple agents and tasks orchestrated to perform complex newsletter automation.
+Crew Formation : The crew is composed of multiple agents and tasks orchestrated to perform complex newsletter automation.
 
 ```
 crew = Crew(
@@ -47,8 +46,3 @@ crew = Crew(
     verbose=2
 )
 ```
-## Contributing
-Contributions to the CrewAI Hierarchical Tutorial are welcome. Please feel free to fork the repository, make your changes, and submit a pull request.
-
-## Questions & Support
-For questions and support, please open an issue in the repository, and we will be happy to assist you.
