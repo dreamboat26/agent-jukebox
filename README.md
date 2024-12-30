@@ -1,3 +1,4 @@
-# Agents - Lost & Found Implementations
+# semantic_routers
+Notebooks for YouTube video tutorial companion - https://www.youtube.com/@AritraSen
 
-This repository contains my implementations of agents with abstractions for various tasks.
+Source : https://www.aurelio.ai/semantic-router
