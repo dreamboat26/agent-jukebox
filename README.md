@@ -1,3 +1,1 @@
-# Agents - Lost & Found Implementations
-
-This repository contains my implementations of agents with abstractions for various tasks.
+This is to be used to Analystics Vidhya Datahour session - https://www.analyticsvidhya.com/events/datahour/building-business-intelligence-tool-using-llm-agents
